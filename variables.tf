@@ -24,11 +24,6 @@ variable "alert_policy_filter_metric_type" {
 variable "alert_policy_filter_resource_type" {
   type = string
 }
-
-variable "alert_policy_filter_service_name" {
-  type = string
-}
-
 variable "project" {
   description = "Identifier for the project"
   type        = string
